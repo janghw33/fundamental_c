@@ -1,14 +1,24 @@
-//
-// Created by ekrmx on 2024-03-11.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_putchar.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jhyeongw <jhyeongw@student.42berlin.de>    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/03/15 01:44:51 by jhyeongw          #+#    #+#             */
+/*   Updated: 2024/03/15 16:44:05 by jhyeongw         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <unistd.h>
-void ft_putchar2(char c)
+
+void ft_putchar(char c)
 {
     write(1, &c, 1);
 }
 
 int main()
 {
-    ft_putchar2('c');
+    ft_putchar('c');
     return 0;
 }
