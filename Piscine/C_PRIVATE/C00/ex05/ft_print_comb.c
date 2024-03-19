@@ -10,7 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+
+/*
 
 void ft_print_comb(void);
 int main()
@@ -18,7 +19,9 @@ int main()
     ft_print_comb();
     return 0;
 }
+*/
 
+#include <unistd.h>
 void ft_print_comb(void)
 {
     int i = '0';

@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 // created by JangHW on 2024-03-15 22:33
+/*
 
 #include <stdio.h>
 void    ft_div_mod(int a, int b, int *div, int *mod);
@@ -25,6 +26,7 @@ int main()
     printf("%d %d", div, mod);
     return 0;
 }
+*/
 
 void    ft_div_mod(int a, int b, int *div, int *mod)
 {

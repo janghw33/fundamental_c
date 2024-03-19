@@ -1,37 +1,34 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_swap.c                                          :+:      :+:    :+:   */
+/*   ft_putstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jhyeongw <jhyeongw@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/15 22:16:13 by jhyeongw          #+#    #+#             */
-/*   Updated: 2024/03/15 22:37:06 by jhyeongw         ###   ########.fr       */
+/*   Created: 2024/03/19 01:02:55 by jhyeongw          #+#    #+#             */
+/*   Updated: 2024/03/19 01:02:55 by jhyeongw         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// created by JangHW on 2024-03-15 22:33
+// created by JangHW on 2024-03-19 01:
 /*
 
-void    ft_swap(int*, int*);
-#include <stdio.h>
+void    ft_putstr(char *);
+
 int main()
 {
-    int a = 3;
-    int b = 5;
-    int* c = &a;
-    int* d = &b;
-    printf("before *c = %d, *d = %d", *c, *d);
-    ft_swap(c, d);
-    printf("\nafter *c = %d, *d = %d", *c, *d);
+    char *a = "hello";
+    ft_putstr(a);
 }
 */
 
-void    ft_swap(int *a, int *b)
+#include <unistd.h>
+void    ft_putstr(char *str)
 {
-    int temp;
-    temp = *a;
-    *a = *b;
-    *b = temp;
+    int i = 0;
+    while (str[i])
+    {
+        write(1, &str[i], 1);
+        i++;
+    }
 }
-

@@ -1,37 +1,36 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_swap.c                                          :+:      :+:    :+:   */
+/*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jhyeongw <jhyeongw@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/15 22:16:13 by jhyeongw          #+#    #+#             */
-/*   Updated: 2024/03/15 22:37:06 by jhyeongw         ###   ########.fr       */
+/*   Created: 2024/03/19 18:09:31 by jhyeongw          #+#    #+#             */
+/*   Updated: 2024/03/19 18:21:35 by jhyeongw         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// created by JangHW on 2024-03-15 22:33
+// created by JangHW on 2024-03-19 18:09
 /*
 
-void    ft_swap(int*, int*);
 #include <stdio.h>
+
+int ft_strlen(char *);
+
 int main()
 {
-    int a = 3;
-    int b = 5;
-    int* c = &a;
-    int* d = &b;
-    printf("before *c = %d, *d = %d", *c, *d);
-    ft_swap(c, d);
-    printf("\nafter *c = %d, *d = %d", *c, *d);
+    char *a = "hello";
+    printf("%i", ft_strlen(a));
 }
 */
 
-void    ft_swap(int *a, int *b)
+#include <unistd.h>
+int ft_strlen(char *a)
 {
-    int temp;
-    temp = *a;
-    *a = *b;
-    *b = temp;
+    int i = 0;
+    while(*(a+i))
+    {
+        i++;
+    }
+    return i+1;
 }
-

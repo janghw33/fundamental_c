@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 // created by JangHW on 2024-03-18 20:54
+/*
 
 #include <stdio.h>
 
@@ -23,6 +24,7 @@ int     main()
     ft_ultimate_div_mod(&nData1, &nData2);
     printf("%d %d", nData1, nData2);
 }
+*/
 
 void    ft_ultimate_div_mod(int *a, int *b)
 {

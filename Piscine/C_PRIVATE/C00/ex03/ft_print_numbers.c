@@ -21,6 +21,7 @@ void ft_print_numbers(void)
         ++n;
     }
 }
+/*
 
 int main()
 {
@@ -28,3 +29,4 @@ int main()
     return 0;
 }
 
+*/

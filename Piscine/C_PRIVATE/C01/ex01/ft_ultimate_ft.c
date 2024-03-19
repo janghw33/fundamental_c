@@ -6,11 +6,13 @@
 /*   By: jhyeongw <jhyeongw@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/15 21:57:05 by jhyeongw          #+#    #+#             */
-/*   Updated: 2024/03/15 22:15:13 by jhyeongw         ###   ########.fr       */
+/*   Updated: 2024/03/19 19:18:41 by jhyeongw         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// Jang created on 2024-03-15 21:57
+// JangHW created on 2024-03-15 21:57
+/*
+
 #include <stdio.h>
 
 void	ft_ultimate_ft(int *********);
@@ -34,6 +36,7 @@ int		main(void)
     ft_ultimate_ft(ptr9);
     printf("After (42): %d\n", a);
 }
+*/
 
 void ft_ultimate_ft(int********* nbr)
 {
