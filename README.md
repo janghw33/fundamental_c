@@ -10,4 +10,4 @@ Solutions to each assignment are implemented in folders named `ex+number` corres
 - **C private Folder** :
   there are projects including 3~10 exercises that range from basic to implementing important C library functions and complex algorithm implementations.
 - **C rush** :
-  A project where you tackle some visual problems through coding for problem-solving.
+  A project quite complicated where you tackle some visual problems through coding for problem-solving.
