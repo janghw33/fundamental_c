@@ -6,7 +6,7 @@ Solutions to each assignment are implemented in folders named `ex+number` corres
 
 ## Structure
 - **Shell Folder** :
-  Contains projects related to the Linux environment, file system management, etc.
+  Contains projects related to the Linux environment, file system management.
 - **C private Folder** :
   Inside this folder, there are projects that range from basic to implementing important C library functions and complex algorithm implementations.
 - **C rush** :
