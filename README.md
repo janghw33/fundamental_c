@@ -1,6 +1,6 @@
 # PICINE
 
-This folder is based on Linux's C libraries and includes problems and solutions that help in understanding the C language.
+This folder is from school 42 based on Linux's C libraries and includes problems and solutions that help in understanding the C language.
 Each top-level folder contains a single PDF with several assignments.
 Solutions to each assignment are implemented in folders named `ex+number` corresponding to each task.
 
