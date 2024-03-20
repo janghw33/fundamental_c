@@ -8,6 +8,6 @@ Solutions to each assignment are implemented in folders named `ex+number` corres
 - **Shell Folder** :
   Contains projects related to the Linux environment, file system management.
 - **C private Folder** :
-  Inside this folder, there are projects that range from basic to implementing important C library functions and complex algorithm implementations.
+  there are projects including 3~10 exercises that range from basic to implementing important C library functions and complex algorithm implementations.
 - **C rush** :
   A project where you tackle some visual problems through coding for problem-solving.
