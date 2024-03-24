@@ -6,7 +6,7 @@
 /*   By: jhyeongw <jhyeongw@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/21 21:21:46 by jhyeongw          #+#    #+#             */
-/*   Updated: 2024/03/21 21:38:19 by jhyeongw         ###   ########.fr       */
+/*   Updated: 2024/03/24 23:54:54 by jhyeongw         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,6 @@ int main()
 {
     char a[] = "aSAASa";
     char b[] = "aBa4dfe";
-    char c[] = "aa w";
 
     printf("%d", ft_str_is_alpha(a));
 
